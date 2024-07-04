@@ -3,6 +3,7 @@ body {
     background-color: #ffffff;
     color: #4f297a;
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -22,6 +23,8 @@ body {
     align-items: center;
     max-width: 1200px;
     width: 100%;
+    height: 100%;
+    margin-top: -20px;
 }
 
 .text-section {
@@ -99,10 +102,11 @@ body {
 }
 
 .footer {
-    padding: 20px 10px;
+    padding: 5px 10px;
     background-color: #5e21a3;
     color: #FFFFFF;
     text-align: center;
+    margin-top: auto; /* Certifica que o footer fica no final da página */
 }
 
 .footer-container {
